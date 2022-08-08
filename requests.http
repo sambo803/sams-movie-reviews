@@ -1,2 +1,28 @@
 ### get movies index
 GET http://localhost:3000/movies.json
+### post movies create
+POST http://localhost:3000/movies.json
+Content-Type: application/json
+
+{
+  "title": "Midsommar",
+  "director": "Ari Aster",
+  "year": 2019,
+  "starring": "Florence Pugh"
+}
+
+### get movies show
+GET http://localhost:3000/movies/4.json
+### patch movies update
+PATCH http://localhost:3000/movies/2.json
+Content-Type: application/json
+
+{
+  "title": "Mystery Men",
+  "director": "Kinka Usher",
+  "year": 1999,
+  "starring": "Ben Stiller"
+}
+
+### delete movies destroy
+DELETE http://localhost:3000/movies/4.json

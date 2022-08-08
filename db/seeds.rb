@@ -5,3 +5,5 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+movie = Movie.new(title: "Thirteen Lives", director: "Ron Howard", year: 2022, starring: "Viggo Mortensen")
+#movie.save
